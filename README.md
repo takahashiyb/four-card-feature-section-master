@@ -65,4 +65,4 @@ https://www.joshwcomeau.com/css/interactive-guide-to-flexbox/ https://www.joshwc
 
 ## Acknowledgments
 
-Thank you Josh Comeau of www.joshwcomeau.com for helping me lear so much about grid and flex.
+Thank you Josh Comeau of www.joshwcomeau.com for helping me learn so much about grid and flex.
