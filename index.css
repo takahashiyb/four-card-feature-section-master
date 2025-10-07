@@ -74,6 +74,7 @@ main {
   display: flex;
   flex-direction: column;
   row-gap: 60px;
+  flex-grow: 1;
 }
 
 .title-wrapper {
@@ -92,13 +93,12 @@ main {
 .card-wrapper {
   display: flex;
   flex-direction: column;
-  row-gap: var(--spacing4);
+  gap: var(--spacing4);
   align-items: center;
 }
 
 section {
-  display: flex;
-  flex-direction: column;
+  display: grid;
   max-width: 314px;
   border-top-width: 4px;
   border-top-style: solid;
@@ -135,6 +135,21 @@ section .card-image {
 section .card-image img {
   width: 64px;
   aspect-ratio: 1;
+}
+
+@media (min-width: 400px) {
+  .card-wrapper {
+    flex-grow: 1;
+    flex-wrap: wrap;
+  }
+  .card-wrapper div:first-child {
+    flex-basis: 100%;
+    align-content: center;
+  }
+  .card-wrapper div:last-child {
+    flex-basis: 50%;
+    align-content: center;
+  }
 }
 
 /* Footer */
