@@ -144,6 +144,10 @@ section .card-image img {
 }
 
 @media (min-width: 767px) {
+  .title-wrapper {
+    max-width: 540px;
+  }
+
   .title-wrapper div * {
     font-size: 36px;
   }
