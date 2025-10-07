@@ -1,0 +1,61 @@
+/* Variables and Defaults */
+:root {
+  /* Colors */
+  --grey500: rgb(77, 79, 98);
+  --grey500: rgb(106, 113, 120);
+  --white: rgb(255, 255, 255);
+  --red: rgb(234, 84, 84);
+  --cyan: rgb(68, 211, 210);
+  --blue: rgb(84, 158, 242);
+  --orange: rgb(252, 174, 74);
+  /* Spacing */
+  --spacing1: 8px;
+  --sacing2: 16px;
+  --sacing2: 24px;
+  --sacing2: 32px;
+  --sacing2: 40px;
+  /* Defaults */
+  font-family: "Poppins";
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 160%;
+  letter-spacing: 0px;
+}
+
+/* text presets */
+
+.text-preset-one {
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 140%;
+  letter-spacing: 0.25px;
+}
+
+.text-preset-two {
+  font-size: 36px;
+  font-weight: 200;
+  line-height: 140%;
+  letter-spacing: 0.25px;
+}
+
+.text-preset-three {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 135px;
+  letter-spacing: 0px;
+}
+
+.text-preset-four {
+  font-size: 15px;
+  line-height: 140%;
+  letter-spacing: 0px;
+}
+
+/* Footer */
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
