@@ -144,6 +144,10 @@ section .card-image img {
 }
 
 @media (min-width: 767px) {
+  .title-wrapper div * {
+    font-size: 36px;
+  }
+
   .card-wrapper {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -176,11 +180,11 @@ section .card-image img {
   main {
     height: 91vh;
   }
+
   .card-wrapper {
     display: grid;
     grid-template-rows: 1fr 1fr 1fr 1fr;
     grid-template-columns: 1fr 1fr 1fr;
-    max-width: 1240px;
     grid-template-areas:
       "left top right"
       "left top right"
